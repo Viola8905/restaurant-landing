@@ -1,3 +1,7 @@
+.wrapper{
+	overflow: hidden;
+}
+
 .section__padding {
   padding: 4rem 6rem;
 }
