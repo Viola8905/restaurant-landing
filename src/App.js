@@ -1,16 +1,6 @@
 import React from "react";
 
-import {
-  AboutUs,
-  Chef,
-  FindUs,
-  Footer,
-  Gallery,
-  Header,
-  Intro,
-  Laurels,
-  SpecialMenu,
-} from "./container";
+import { Chef, Header, Intro, Laurels, SpecialMenu } from "./container";
 import { Navbar } from "./components";
 import "./App.css";
 
@@ -28,7 +18,7 @@ const App = () => (
         display: "flex",
         justifyContent: "center",
         backgroundColor: `var(--color-black)`,
-				padding:"30px 10px"
+        padding: "30px 10px",
       }}
     >
       <iframe
@@ -38,6 +28,7 @@ const App = () => (
         frameborder="0"
         marginheight="0"
         marginwidth="0"
+				title="iframe"
       >
         Загрузка…
       </iframe>
