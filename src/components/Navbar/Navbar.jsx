@@ -8,8 +8,11 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <nav className="app__navbar">
-      <div className="app__navbar-logo">
-        <img src={images.gericht} alt="app logo" />
+      <div
+        className="p__opensans"
+        style={{ fontSize: "25px", color: "#DCCA87" }}
+      >
+        UzhNu Eats
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
@@ -22,15 +25,7 @@ const Navbar = () => {
           <a href="#awards">Awards</a>
         </li>
       </ul>
-      {/* <div className="app__navbar-login">
-        <a href="#login" className="p__opensans">
-          Log In/Register
-        </a>
-        <div />
-        <a href="/" className="p__opensans">
-          Book Table
-        </a>
-      </div> */}
+
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu
           color="#fff"
